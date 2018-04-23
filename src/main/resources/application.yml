@@ -1,0 +1,8 @@
+api_layer_accesskey: 495a4d41f9adbb396ce73dab69292f63
+currency_converter_url: "http://apilayer.net/api/live?access_key=${api_layer_accesskey}&currencies=CURRENCY_TO&source=CURRENCY_FROM&format=1"
+server:
+  port: 8761
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
